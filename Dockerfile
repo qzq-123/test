@@ -1,4 +1,3 @@
 From ubuntu:16.04
-RUN apt-get update
-RUN apt-get -y install vim
+RUN echo hello world >> 22.txt
 EXPORT 9999
